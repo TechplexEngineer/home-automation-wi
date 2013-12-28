@@ -1,0 +1,17 @@
+<template name="zoneItem">
+	<tr class="zone">
+		<td class="zone_title">{{title}}</td>
+		<td>
+			{{#if status}}
+				<div class="circle on"></div>
+			{{else}}
+				<div class="circle off"></div>
+			{{/if}}
+		</td>
+		<td>
+			<input type="radio" name="zone[{{num}}]" value="On">On
+			<input type="radio" name="zone[{{num}}]" value="Off">Off
+			<input type="radio" name="zone[{{num}}]" value="Thermostat" checked="checked">Thermostat
+		</td>
+	</tr>
+</template>

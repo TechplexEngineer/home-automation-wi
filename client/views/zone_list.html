@@ -1,0 +1,16 @@
+<template name="zoneList">
+	<div class="zones">
+		<table>
+			<thead>
+				<th>Zone</th>
+				<th>Status</th>
+				<th>Force/Control</th>
+			</thead>
+			<tbody>
+				{{#each zones}}
+					{{> zoneItem}}
+				{{/each}}
+			</tbody>
+		</table>
+	</div>
+</template>
