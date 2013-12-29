@@ -10,9 +10,7 @@ Meteor.methods({
 function buildMessage(args) {
 	args.zone = args.zone - 1; //zones are zero indexed in the i2c link. @todo
 
-	var require = Npm.require;
-	var fut = new Future();
-	var exec = require('child_process').exec;
+	
 	// console.log(args);
 	var message = 0;
 	if (args.action == "On")
@@ -38,6 +36,9 @@ function i2cset(args) {
 		var opts = _.extend({}, defaults, args);
 		if (process.env.METEOR_ENV == 'prod')
 		{
+			var require = Npm.require;
+			var fut = new Future();
+			var exec = require('child_process').exec;
 			child = exec('/usr/sbin/i2cset -y 1 0x04 0x'+opts.msg, //
 			function (error, stdout, stderr) {
 				if (error !== null) {
