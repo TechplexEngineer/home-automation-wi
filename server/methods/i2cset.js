@@ -6,7 +6,7 @@ Meteor.methods({
 		var require = Npm.require;
 		var fut = new Future();
 		var exec = require('child_process').exec;
-		console.log(args);
+		// console.log(args);
 		var message = 0;
 		if (args.action == "On")
 			message |= 1<<4;
@@ -19,18 +19,18 @@ Meteor.methods({
 
 		message |= args.zone;
 
-		console.log("msg: 0x"+message.toString(16))
+		// console.log("msg: 0x"+message.toString(16))
 
-		// child = exec('/usr/sbin/i2cset -y 1 0x04 0x'+message.toString(16), //
-		// function (error, stdout, stderr) {
-		// 	// console.log('stdout: ' + stdout);
-		// 	// console.log('stderr: ' + stderr);
-		// 	if (error !== null) {
-		// 		console.log('exec error: ' + error);
-		// 	}
-		// 	fut['return'](error||0);
-		// });
+		child = exec('/usr/sbin/i2cset -y 1 0x04 0x'+message.toString(16), //
+		function (error, stdout, stderr) {
+			// console.log('stdout: ' + stdout);
+			// console.log('stderr: ' + stderr);
+			if (error !== null) {
+				console.log('exec error: ' + error);
+			}
+			fut['return'](error||0);
+		});
 
-		// return fut.wait();
+		return fut.wait();
 	}
 })
