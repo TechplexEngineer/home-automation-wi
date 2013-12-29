@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/home/techplex/Copy/projects/Econoburn Wood Boiler/home-automation"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/techplex/Copy/projects/Econoburn Wood Boiler/relayBoxControl"
+		}
+	]
+}

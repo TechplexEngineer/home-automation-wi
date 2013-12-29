@@ -40,7 +40,7 @@ Template.zoneList.events({
 				,"action" : action
 			};
 
-			Meteor.call('i2cset', args, function(error, result) {
+			Meteor.call('updateZone', args, function(error, result) {
 				if (error)
 					console.err('i2cset error: ', error)
 				else

@@ -1,0 +1,321 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"digi",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"out",
+				"output_file"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"days",
+				"daysbylen"
+			],
+			[
+				"res",
+				"responses"
+			],
+			[
+				"respon",
+				"responses"
+			]
+		]
+	},
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 306.0,
+		"selected_items":
+		[
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"pclp",
+				"Package Control: List Packages"
+			],
+			[
+				"ss",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 543.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/techplex/Copy/projects/Econoburn Wood Boiler/home-automation/wi/.meteor/local/build/programs/client/packages/livedata.js",
+		"/home/techplex/Copy/projects/Econoburn Wood Boiler/home-automation/wi/client/views/zone_item.html",
+		"/home/techplex/Copy/projects/Econoburn Wood Boiler/home-automation/wi/client/stylesheets/style.less",
+		"/home/techplex/Copy/projects/Econoburn Wood Boiler/home-automation/wi/server/startup.js",
+		"/home/techplex/Copy/projects/Econoburn Wood Boiler/home-automation/wi/methods/i2cset.js",
+		"/home/techplex/Copy/projects/Econoburn Wood Boiler/home-automation/wi/server/../startup.js",
+		"/home/techplex/Copy/projects/Econoburn Wood Boiler/home-automation/wi/client/views/zone_list.js",
+		"/home/techplex/Copy/projects/Econoburn Wood Boiler/home-automation/wi/client/main.html",
+		"/home/techplex/Copy/projects/Econoburn Wood Boiler/home-automation/wi/wi.css",
+		"/home/techplex/Copy/projects/Econoburn Wood Boiler/home-automation/leaderboard/leaderboard.js",
+		"/home/techplex/Copy/projects/Econoburn Wood Boiler/home-automation/server.js",
+		"/home/techplex/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/techplex/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/techplex/.config/sublime-text-3/Packages/Default/-",
+		"/etc/Blink.ino",
+		"/home/techplex/Copy/projects/node/Microscope/client/main.html",
+		"/home/techplex/Copy/projects/node/Microscope/client/helpers/config.coffee",
+		"/home/techplex/Copy/projects/node/Microscope/client/views/app/layout.html",
+		"/home/techplex/Copy/projects/node/Microscope/client/views/events/events_list.html",
+		"/home/techplex/Copy/projects/node/Microscope/client/views/events/events_list.coffee",
+		"/home/techplex/Copy/projects/node/Microscope/server/publications.coffee",
+		"/home/techplex/Copy/projects/node/Microscope/server/fixtures.coffee",
+		"/home/techplex/Copy/projects/node/Microscope/client/views/events/event_item.html",
+		"/home/techplex/Copy/projects/node/Microscope/collections/posts.coffee",
+		"/home/techplex/Copy/projects/node/Microscope/client/main.coffee",
+		"/home/techplex/Copy/projects/node/Microscope/client/views/events/events_list.js",
+		"/home/techplex/Copy/projects/node/d2/notes.md",
+		"/home/techplex/Copy/projects/node/d2/client/main.html",
+		"/home/techplex/Copy/projects/node/Microscope/client/views/events/posts_list.html",
+		"/home/techplex/Copy/projects/node/d2/client/views/events/events_list.html",
+		"/home/techplex/Copy/projects/node/d2/client/views/events/event_item.html",
+		"/home/techplex/Copy/projects/node/d2/client/views/events/event_list.js",
+		"/home/techplex/Desktop/milestone3/of/M2_t2.sof",
+		"/home/techplex/Desktop/node/leaderboard/leaderboard.js",
+		"/home/techplex/Desktop/node/doodle/doodle2.html.old",
+		"/home/techplex/Desktop/node/node-express-mongoose/app/views/home/index.jade",
+		"/home/techplex/Desktop/node/node-express-mongoose/config/config.js",
+		"/home/techplex/Documents/plextex/app/views/users/auth.jade",
+		"/home/techplex/Desktop/schedule/test.txt",
+		"/home/techplex/Desktop/schedule/ghost.py",
+		"/home/techplex/Desktop/schedule/scrape.py",
+		"/home/techplex/Desktop/schedule/schedule.py",
+		"/media/techplex/7c63d110-80da-461a-9b32-e0d85687db01/home/techplex/setup.sh",
+		"/home/techplex/test.rules"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 135.0,
+		"where_history":
+		[
+			"/home/techplex/Copy/projects/Econoburn Wood Boiler/home-automation/wi/.meteor",
+			"/home/techplex/Desktop/node/parties",
+			"/home/techplex/Documents/plextex/app",
+			"/home/techplex/Documents/plextex",
+			"/home/techplex/Documents/plextex/app/views"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"opts",
+			"options",
+			"i2cset",
+			"Future",
+			"fibers",
+			"val",
+			"span",
+			"div",
+			"td",
+			"span",
+			"\"\n",
+			"div",
+			"id",
+			"span",
+			"div",
+			"ZoneOff",
+			"ZoneOn",
+			"event",
+			"post",
+			"'",
+			"time",
+			"   ",
+			"    ",
+			"328",
+			"URL",
+			"url",
+			"Posts",
+			" ",
+			"$\\n^",
+			"ex_n_",
+			"input wire",
+			"id",
+			";",
+			"mem_",
+			"Mem",
+			"mem",
+			"ex",
+			"else if (write == 1'b1) begin \n			ex_RegDst <= id_RegDst;\n			ex_ALUSrc <= id_ALUSrc;\n			ex_Mem2Reg <= id_Mem2Reg;\n			ex_RegWrite <= id_RegWrite;\n			ex_MemRead <= id_MemRead;\n			ex_MemWrite <= id_MemWrite;\n			ex_Branch <= id_Branch;\n			ex_BranchType <= id_BranchType;\n			ex_Jump <= id_Jump;\n			ex_ALUCtrl <= id_ALUCtrl;\n			ex_ReadData1 <= id_ReadData1;\n			ex_ReadData2 <= id_ReadData2;\n			ex_RD <= id_RD;\n			ex_Shamt <= id_Shamt;\n			ex_RT <= id_RT;\n			ex_RS <= id_RS;\n			ex_Immediate <= id_Immediate;\n			ex_Instr <= id_Instr;\n		end \n		else begin\n			ex_RegDst <= ex_RegDst;\n			ex_ALUSrc <= ex_ALUSrc;\n			ex_Mem2Reg <= ex_Mem2Reg;\n			ex_RegWrite <= ex_RegWrite;\n			ex_MemRead <= ex_MemRead;\n			ex_MemWrite <= ex_MemWrite;\n			ex_Branch <= ex_Branch;\n			ex_BranchType <= ex_BranchType;\n			ex_Jump <= ex_Jump;\n			ex_ALUCtrl <= ex_ALUCtrl;\n			ex_ReadData1 <= ex_ReadData1;\n			ex_ReadData2 <= ex_ReadData2;\n			ex_RD <= ex_RD;\n			ex_Shamt <= ex_Shamt;\n			ex_RT <= ex_RT;\n			ex_RS <= ex_RS;\n			ex_Immediate <= ex_Immediate;\n			ex_Instr <= ex_Instr;\n		end",
+			"id",
+			"id_ALUSrc",
+			"id",
+			"block",
+			"ForwardA",
+			"ForwardB",
+			">\n",
+			".rsvp",
+			"rsvp",
+			"5",
+			"no con",
+			"name",
+			"\">\n",
+			"5",
+			"sample",
+			"persona",
+			"Invalid Something",
+			"persona",
+			"blake",
+			":",
+			"ALUctrl",
+			"\\t+"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\t"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 250.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 184.0
+	},
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
