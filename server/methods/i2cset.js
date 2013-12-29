@@ -1,6 +1,8 @@
 Meteor.methods({
 	i2cset: function(args) {
 
+		args.zone = args.zone - 1; //zones are zero indexed in the i2c link. @todo
+
 		var require = Npm.require;
 		var fut = new Future();
 		var exec = require('child_process').exec;
